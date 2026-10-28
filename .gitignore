@@ -1,0 +1,25 @@
+# game files, keys, the mod and build output never go in this repository
+*.nsp
+*.xci
+*.nsz
+*.xcz
+*.keys
+*.ipa
+*.app/
+*_build/
+acnh-60fps/
+__pycache__/
+.DS_Store
+memory/
+.secrets/
+# common block (gitignore_sync.sh 1.0.0): installers, archives, archive parts, environment
+*.exe
+*.msi
+*.dmg
+*.pkg
+*.iso
+*.zip
+*.rar
+*.7z
+*.part[0-9]*
+.env
